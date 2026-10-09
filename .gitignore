@@ -1,0 +1,4 @@
+# Only these preparation files are approved for the initial staging commit.
+*
+!/.gitignore
+!/README.md
