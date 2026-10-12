@@ -1,4 +1,24 @@
-# Only these preparation files are approved for the initial staging commit.
-*
-!/.gitignore
-!/README.md
+# Code only: local preparation, clinical data and generated outputs stay private.
+/本地核验/
+/inputs/
+/outputs/
+**/__pycache__/
+*.pyc
+.DS_Store
+*.RDS
+*.rds
+*.h5ad
+*.fastq*
+*.fq*
+*.raw
+*.mzML
+*.mzml
+*.xlsx
+*.docx
+*.pdf
+*.tiff
+*.png
+*.tar*
+*.zip
+.env
+*.pem
